@@ -1,0 +1,50 @@
+Informe del paquete
+
+-----------------------------------------------------------------------------
+Documento:
+Nombre: barrabas_home1.ai
+Modo de color: Color RGB
+Perfil de color: sRGB IEC61966-2.1
+Unidades de regla: p’xeles
+Dimensiones de la mesa de trabajo: 1280 px x 2042.2598 px
+Mostrar im‡genes en modo contorno: Desactivado
+Resaltar fuentes sustituidas: Desactivado
+Resaltar glifos sustituidos: Desactivado
+Conservar capacidad de edici—n de texto
+Simular papel de color: Desactivado
+
+-----------------------------------------------------------------------------
+Objetos de tintas planas:
+
+-----------------------------------------------------------------------------
+Fuentes no disponibles:Ninguno
+
+-----------------------------------------------------------------------------
+Fuentes protegidas no empaquetadas:Ninguno
+
+-----------------------------------------------------------------------------
+Fuentes:
+Arya Rounded W05 Regular (TrueType)
+Avenir Next Medium (TrueType)
+Cocogoose Light (TrueType)
+Myriad Pro (OTF)
+Valencia-Serial-Heavy-RegularItalic (TrueType)
+
+-----------------------------------------------------------------------------
+Fuentes incrustadas:
+Ninguno
+
+-----------------------------------------------------------------------------
+Enlaces no disponibles:
+Ninguno
+
+-----------------------------------------------------------------------------
+Im‡genes enlazadas:
+
+/Usuarios/edgar/Descargas/vista-frontal-bombillas-encendidas-apagadas-como-concepto-idea.psd
+Tipo: RGB transparente
+Bits por p’xel: 32
+Canales: 4
+Tama–o: 96875K, 6200 por 4000 p’xeles
+Dimensiones: 1560.593 por 1006.834 puntos 
+Resoluci—n: 286.045 por 286.045 p’xeles por pulgada

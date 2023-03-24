@@ -1,0 +1,360 @@
+@font-face {
+    font-family: 'Cocogoce';
+    src: url('../fonts/CocogoosePro.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Valencia';
+    src: url('../fonts/Valencia-Serial-Heavy-RegularItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/AvenirNext.ttc') format('truetype');
+}
+
+@font-face {
+    font-family: 'Myriad';
+    src: url('../fonts/MyriadPro-Regular.otf') format('truetype');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'Cocogoce', serif;
+}
+
+h2 span {
+    font-family: 'Valencia', serif;
+}
+
+p,
+a {
+    font-family: 'Myriad', serif;
+}
+
+h2,
+div {
+    width: 100%;
+}
+
+.row {
+    margin: 0;
+}
+
+.home h1 {
+    font-size: 4rem;
+    width: 50%;
+}
+
+.home h1 span {
+    font-family: 'Valencia', serif;
+}
+
+.home img.objeto {
+    position: absolute;
+    bottom: 15%;
+    right: 0;
+    width: 90px;
+}
+
+.home img.objeto-naranja {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    height: 25px;
+}
+
+.home img.media-luna_bottom {
+    position: absolute;
+    bottom: 0;
+    width: 400px;
+    left: 10%;
+}
+
+.home img.media-luna_top {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    transform: rotate(180deg);
+}
+
+.servicios {
+    background: #000;
+    color: #fff;
+}
+
+.servicios .col-lg-7 {
+    padding: 0 5rem;
+}
+
+.carousel-inner {
+    border: 1px solid #a18dcc;
+    border-radius: 50px;
+    /* min-height: 300px; */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    border: 1px solid #a18dcc;
+    width: 2.5rem;
+    border-radius: 50px;
+}
+
+.carousel-control-prev {
+    left: -3rem;
+}
+
+.carousel-control-next {
+    right: -3rem;
+}
+
+.carousel-item h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.carousel-item h2 span {
+    font-size: 2.5rem;
+}
+
+.servicios button {
+    background: rgb(146, 34, 243);
+    background: linear-gradient(90deg, rgba(146, 34, 243, 1) 0%, rgba(146, 34, 243, 1) 30%, rgba(97, 74, 208, 1) 92%);
+    padding: 12px 30px;
+    border-radius: 20px;
+    color: #dda5ff;
+}
+
+.servicios img.objeto {
+    position: absolute;
+    top: -40px;
+    height: 25px;
+    right: -70px;
+}
+
+.servicios img.objeto-naranja {
+    bottom: -40px;
+    position: absolute;
+    right: -50px;
+    height: 25px;
+}
+
+.contacto {
+    background: rgb(146, 34, 243);
+    background: linear-gradient(90deg, rgba(146, 34, 243, 1) 0%, rgba(146, 34, 243, 1) 30%, rgba(97, 74, 208, 1) 92%);
+}
+
+/* .contacto .textarea {
+    background: transparent;
+    background-image: url(../images/caja_contacto.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    height: 300px;
+} */
+
+.contacto textarea {
+    border-radius: 30px;
+    border: none;
+    position: relative;
+    z-index: 1;
+}
+
+.contacto img.orilla_right,
+.contacto img.orilla_left {
+    position: absolute;
+    height: 100%;
+    top: 0;
+
+}
+
+.contacto img.orilla_right {
+    right: -40px;
+}
+
+.contacto img.orilla_left {
+    left: -40px;
+}
+
+.contacto textarea:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.contacto input,
+.contacto button {
+    background: transparent;
+    border-radius: 20px;
+    border: 1px solid #dda5ff;
+    color: #dda5ff;
+    height: 45px;
+}
+
+.contacto input::placeholder {
+    color: #dda5ff;
+}
+
+.contacto form .row .form-group {
+    width: 65%;
+}
+
+.contacto form button {
+    width: 30%;
+}
+
+.contacto img.maquina {
+    transform: rotate(15deg);
+}
+
+footer {
+    background: #000;
+}
+
+.modal-content,
+.modal-body,
+.card {
+    background: #000;
+}
+
+.modal-body {
+    color: #fff;
+}
+
+.modal .card {
+    border: 1px solid #dda5ff;
+}
+
+.modal .card h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ff8c42;
+}
+
+.modal .card-img-top {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.modal h2 {
+    color: rgb(146, 34, 243);
+    ;
+}
+
+@media (max-width: 991px) {
+    /* .servicios .col-lg-5 {
+        overflow-y: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    .servicios .mano {
+        transform: rotate(105deg);
+        width: 70%;
+        height: 65%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .servicios .mano-responsive {
+        height: 350px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .carousel-inner {
+        height: 750px;
+    }
+
+    .contacto img.maquina {
+        width: 65%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .contacto .rotate {
+        transform: rotate(180deg);
+    }
+}
+
+@media (max-width: 600px) {
+    .home h1 {
+        font-size: 3rem;
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .home h2 {
+        font-size: 1.8rem;
+        margin-top: 1rem;
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .home img.media-luna_bottom {
+        position: relative;
+        bottom: 0;
+        width: 400px;
+        left: 0;
+    }
+
+    .servicios {
+        padding: 0 0 6rem 0 !important;
+    }
+
+    .servicios .col-lg-7 {
+        padding: 0 1rem;
+    }
+
+    .servicios .mano-responsive {
+        display: block;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    .carousel-inner {
+        height: 500px;
+    }
+
+    .servicios button {
+        margin-bottom: 2rem;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        top: 105%;
+        height: 30px;
+        width: 45%;
+    }
+
+    .carousel-control-next {
+        right: 0;
+    }
+
+    .carousel-control-prev {
+        left: 0;
+    }
+
+    .contacto form .row .form-group {
+        width: 100%;
+    }
+
+    .contacto form button {
+        width: 100%;
+    }
+
+    .servicios img.objeto {
+        right: calc(50% - 43px);
+    }
+
+    .servicios img.objeto-naranja {
+        display: none;
+    }
+}
