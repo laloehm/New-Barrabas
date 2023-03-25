@@ -131,12 +131,17 @@ div {
     font-size: 2.5rem;
 }
 
-.servicios button {
+/* .servicios button {
     background: rgb(146, 34, 243);
     background: linear-gradient(90deg, rgba(146, 34, 243, 1) 0%, rgba(146, 34, 243, 1) 30%, rgba(97, 74, 208, 1) 92%);
     padding: 12px 30px;
     border-radius: 20px;
     color: #dda5ff;
+} */
+
+.servicios img.button {
+    cursor: pointer;
+    width: 160px;
 }
 
 .servicios img.objeto {
@@ -224,24 +229,20 @@ footer {
     background: #000;
 }
 
-.modal-content,
-.modal-body,
-.card {
-    background: #000;
-}
-
 .modal-body {
-    color: #fff;
+    background: #bbc0c5;
+    padding: 15px;
 }
 
 .modal .card {
-    border: 1px solid #dda5ff;
+    border-radius: 20px;
+    border: none;
+    border: 3px solid rgba(146, 34, 243, 1);
 }
 
 .modal .card h3 {
-    text-align: center;
+    /* text-align: center; */
     font-size: 1.2rem;
-    color: #ff8c42;
 }
 
 .modal .card-img-top {
@@ -250,18 +251,26 @@ footer {
     margin: 0 auto;
 }
 
-.modal h2 {
-    color: rgb(146, 34, 243);
-    ;
+.modal .card-text {
+    color: #9ca0a5;
+}
+
+.modal .close {
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    background: #fff;
+    border: 3px solid rgba(146, 34, 243, 1);
+    width: 60px;
+    height: 60px;
+    opacity: 1;
+    border-radius: 50%;
+    z-index: 1;
+    color: rgba(146, 34, 243, 1);
+    cursor: pointer;
 }
 
 @media (max-width: 991px) {
-    /* .servicios .col-lg-5 {
-        overflow-y: hidden;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    } */
 
     .servicios .mano {
         transform: rotate(105deg);
@@ -373,5 +382,12 @@ footer {
 
     .servicios img.objeto-naranja {
         display: none;
+    }
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 500px;
+        margin: 1.75rem auto;
     }
 }
